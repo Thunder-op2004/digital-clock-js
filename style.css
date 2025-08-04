@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 🌿 Nature background from Unsplash */
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🕒 Clock UI styling */
+.clock-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px 70px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#digital-clock {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+#ampm {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #e0f7fa;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+}
+
+.date-day {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.date-day p {
+  margin: 4px 0;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+}
