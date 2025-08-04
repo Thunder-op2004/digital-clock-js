@@ -14,4 +14,4 @@ It displays live time in 12-hour format with AM/PM, along with current day and d
 ![screenshot](screenshot.png)
 
 ## Author
-Arghya Basal
+Arghya Basak
